@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sfondo-body {
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.contenitore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+    min-height: 630px;
+    background: rgba(12, 0, 0, 0.4);
+    display: block;
+    margin: 12px auto;
+    overflow: hidden;
+
+}
+
+.logo {
+    text-align: center;
+    margin: 25px auto;
+}
+
+img {
+    width: 15%;
+    margin-top: 110px;
+}
+
+h1 {
+    color: rgb(0, 221, 0);
+}
+
+.barra_menu {
+    background: rgba(0, 221, 0);
+    height: 40px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+button {
+    margin: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.barra-sottomenu {
+    height: 40px;
+    width: 700px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.checkbox {
+    margin: 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+h4,
+span {
+    color: white;
+    margin: 10px;
+}
+
+.barra-gino22 {
+    width: 200px;
+    height: 15px;
+    background: orange;
+    border-radius: 3px;
+}
+
+.barra-micke24 {
+    width: 350px;
+    height: 15px;
+    background: green;
+    border-radius: 3px;
+}
+
+.barra-fede154 {
+    width: 100px;
+    height: 15px;
+    background: rgb(216, 67, 8);
+    border-radius: 3px;
+}
